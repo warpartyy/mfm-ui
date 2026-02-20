@@ -38,8 +38,6 @@
   box-shadow: 0 15px 40px rgba(79, 70, 229, 0.45);
 }
 
-
-
 /* ================================
    CARD
 ================================ */
@@ -56,4 +54,33 @@
 .card:hover {
   transform: translateY(-4px);
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+}
+
+/* ================================
+   SURFACES
+================================ */
+
+.bg-surface {
+  background: var(--color-surface);
+}
+
+.bg-subtle {
+  background: var(--color-bg-alt);
+}
+
+.border-subtle {
+  border-color: var(--color-border);
+}
+
+.text-muted {
+  color: var(--color-text-muted);
+}
+
+.link-accent {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+.link-accent:hover {
+  opacity: 0.85;
 }
