@@ -85,12 +85,6 @@
   opacity: 0.85;
 }
 
-
-
-/* ================================
-   CATEGORY CARD
-================================ */
-
 /* ================================
    CATEGORY CARD
 ================================ */
@@ -109,7 +103,8 @@
 .category-card:hover {
   transform: translateY(-4px);
   border-color: var(--color-accent);
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.06),
+              0 0 0 1px rgba(47, 143, 131, 0.08);
 }
 
 /* Title */
@@ -124,10 +119,19 @@
   transition: color 0.2s ease;
 }
 
+.category-title span {
+  font-size: 0.9rem;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
 .category-title:hover {
   color: var(--color-accent);
 }
 
+.category-title span {
+  font-size: 0.9rem;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
 /* Divider */
 
 .category-divider {
@@ -167,4 +171,14 @@
 
 .subcategory-link:hover {
   color: var(--color-text-primary);
+}
+
+/* When card is hovered, enhance internals */
+.category-card:hover .subcategory-bullet {
+  background: var(--color-accent);
+}
+
+.category-card:hover .category-divider {
+  background: var(--color-accent);
+  opacity: 0.5;
 }
