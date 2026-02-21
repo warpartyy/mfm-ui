@@ -6,10 +6,6 @@
 /* SECTIONS */
 @import "./sections/index.css";
 
-
-/* STYLES */
-@import "./styles/index.css";
-
 /* TOKENS */
 @import "./tokens/index.css";
 
