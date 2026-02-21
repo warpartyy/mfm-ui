@@ -1,3 +1,100 @@
+/* ================================
+   HEADER
+================================ */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--color-bg);
+  border-bottom: 1px solid var(--color-border);
+  transition: box-shadow 0.3s ease;
+}
+
+.site-header.scrolled {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+}
+
+/* Logo */
+
+.header-logo {
+  color: var(--color-text-primary);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.header-logo:hover {
+  color: var(--color-accent);
+}
+
+/* Nav Links */
+
+.nav-link {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--color-text-primary);
+}
+
+.nav-link-active {
+  font-size: 0.875rem;
+  color: var(--color-text-primary);
+  font-weight: 500;
+}
+
+/* Primary Button */
+
+.nav-button-primary {
+  font-size: 0.875rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.75rem;
+  background: var(--color-accent);
+  color: white;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.nav-button-primary:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+/* Dropdown */
+
+.dropdown-panel {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 1rem;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+/* Search Input */
+
+.nav-search {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 0.75rem;
+  padding: 0.4rem 0.75rem;
+  font-size: 0.875rem;
+  color: var(--color-text-primary);
+}
+
+.nav-search:focus {
+  outline: none;
+  border-color: var(--color-accent);
+}
+
+/* Mobile Panel */
+
+.mobile-panel {
+  background: var(--color-surface);
+  border-left: 1px solid var(--color-border);
+  box-shadow: -10px 0 30px rgba(0, 0, 0, 0.08);
+}
+
+
 /* ================================ HERO SECTION ================================ */
 
 .hero {
