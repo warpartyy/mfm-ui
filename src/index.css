@@ -1,4 +1,17 @@
-@import "./tokens.css";
-@import "./layout.css";
-@import "./components.css";
-@import "./sections.css";
+/* COMPONENTS */
+@import "./components/index.css";
+
+@import "./layout/index.css";
+
+/* SECTIONS */
+@import "./sections/index.css";
+
+
+/* STYLES */
+@import "./styles/index.css";
+
+/* TOKENS */
+@import "./tokens/index.css";
+
+/* UTILITIES */
+@import "./utilities/index.css";

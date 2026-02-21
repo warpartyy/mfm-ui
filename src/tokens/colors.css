@@ -1,0 +1,17 @@
+:root {
+  /* Background */
+  --color-bg: #fdf8f1;
+  --color-surface: #f7f1e6;
+  --color-border: #e8dfd2;
+
+  /* Text */
+  --color-text-primary: #2f2a24;
+  --color-text-muted: #6b645c;
+  --color-text-subtle: #8a8278;
+
+  /* Accent */
+  --color-accent: #2f8f83;
+
+  /* Highlight */
+  --color-highlight: #f4a261;
+}

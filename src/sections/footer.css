@@ -1,41 +1,41 @@
 /* ================================
-   LAYOUT STRUCTURE
+   FOOTER
 ================================ */
 
-.container {
-  max-width: var(--container-width);
+.site-footer {
+  background: var(--color-surface);
+  border-top: 1px solid var(--color-border);
+  padding: 3rem 1.5rem;
+}
+
+.footer-inner {
+  max-width: 72rem;
   margin: 0 auto;
-  padding: 0 1.5rem;
 }
 
-/* ================================
-   NAVBAR
-================================ */
-
-.navbar {
-  border-bottom: 1px solid var(--color-border);
-  padding: 1.25rem 0;
-}
-
-.navbar-inner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.navbar-brand {
+.footer-brand {
+  font-size: 1.125rem;
   font-weight: 600;
-  font-size: 1.1rem;
-}
-
-.navbar-link {
-  font-size: 0.9rem;
-  color: var(--color-text-secondary);
-}
-
-.navbar-link:hover {
   color: var(--color-text-primary);
+  letter-spacing: -0.01em;
 }
+
+.footer-tagline {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  margin-top: 0.5rem;
+}
+
+.footer-meta {
+  font-size: 0.75rem;
+  color: var(--color-text-subtle);
+  margin-top: 0.75rem;
+}
+
+
+
+
+
 
 /* ================================
    FOOTER
@@ -58,14 +58,14 @@
 }
 
 .footer-brand p {
-  color: var(--color-text-secondary);
+  color: var(--color-text-muted);
   max-width: 400px;
   line-height: 1.6;
 }
 
 .footer-links a {
   display: inline-block;
-  color: var(--color-text-secondary);
+  color: var(--color-text-muted);
   margin-bottom: 0.5rem;
 }
 
@@ -77,5 +77,5 @@
   border-top: 1px solid var(--color-border);
   padding-top: 1.5rem;
   font-size: 0.85rem;
-  color: var(--color-text-secondary);
+  color: var(--color-text-muted);
 }

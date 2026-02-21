@@ -108,21 +108,7 @@
   font-weight: 500;
 }
 
-/* Primary Button */
 
-.nav-button-primary {
-  font-size: 0.875rem;
-  padding: 0.5rem 1rem;
-  border-radius: 0.75rem;
-  background: var(--color-accent);
-  color: white;
-  transition: opacity 0.2s ease, transform 0.2s ease;
-}
-
-.nav-button-primary:hover {
-  opacity: 0.9;
-  transform: translateY(-1px);
-}
 
 /* Dropdown */
 
@@ -149,7 +135,6 @@
   border-color: var(--color-accent);
 }
 
-/* Mobile Panel */
 
 .mobile-panel {
   background: var(--color-surface);
@@ -158,124 +143,36 @@
 }
 
 
-/* ================================ HERO SECTION ================================ */
 
-.hero {
-  padding: 8rem 0;
-  text-align: center;
-}
 
-.hero-title {
-  font-size: 3rem;
-  font-weight: 700;
-  margin-bottom: 1.5rem;
-}
 
-.hero-subtitle {
-  color: var(--color-text-secondary);
-  font-size: 1.25rem;
-  max-width: 650px;
-  margin: 0 auto 2.5rem;
-}
+/* ================================
+   NAVBAR
+================================ */
 
-/* ================================ ABOUT SECTION ================================ */
-
-.about {
-  padding: 8rem 0;
-  background: var(--color-surface);
-  border-top: 1px solid var(--color-border);
+.navbar {
   border-bottom: 1px solid var(--color-border);
+  padding: 1.25rem 0;
 }
 
-.about-inner {
-  display: grid;
-  gap: 3rem;
+.navbar-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.about-label {
-  font-size: 0.75rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--color-accent);
-  display: inline-block;
-  margin-bottom: 1rem;
-}
-
-.about-title {
-  font-size: clamp(1.75rem, 3vw, 2.5rem);
+.navbar-brand {
   font-weight: 600;
-  line-height: 1.3;
+  font-size: 1.1rem;
 }
 
-.about-content p {
-  color: var(--color-text-secondary);
-  line-height: 1.8;
-  margin-bottom: 1.25rem;
-  max-width: 600px;
-}
-
-/* Desktop Layout */
-@media (min-width: 900px) {
-  .about-inner {
-    grid-template-columns: 1fr 1fr;
-    align-items: start;
-  }
-}
-
-/* ================================
-   HERO SECTION
-================================ */
-
-.hero {
-  padding: 10rem 0 8rem;
-  text-align: center;
-}
-
-.hero-title {
-  font-size: clamp(2.5rem, 5vw, 3.75rem);
-  font-weight: 700;
-  letter-spacing: -0.02em;
-  margin-bottom: 1.5rem;
-}
-
-.hero-subtitle {
-  color: var(--color-text-secondary);
-  font-size: 1.25rem;
-  line-height: 1.7;
-  max-width: 680px;
-  margin: 0 auto 2.75rem;
-}
-
-/* ================================
-   FOOTER
-================================ */
-
-.site-footer {
-  background: var(--color-surface);
-  border-top: 1px solid var(--color-border);
-  padding: 3rem 1.5rem;
-}
-
-.footer-inner {
-  max-width: 72rem;
-  margin: 0 auto;
-}
-
-.footer-brand {
-  font-size: 1.125rem;
-  font-weight: 600;
-  color: var(--color-text-primary);
-  letter-spacing: -0.01em;
-}
-
-.footer-tagline {
-  font-size: 0.875rem;
+.navbar-link {
+  font-size: 0.9rem;
   color: var(--color-text-muted);
-  margin-top: 0.5rem;
 }
 
-.footer-meta {
-  font-size: 0.75rem;
-  color: var(--color-text-subtle);
-  margin-top: 0.75rem;
+.navbar-link:hover {
+  color: var(--color-text-primary);
 }
+
+

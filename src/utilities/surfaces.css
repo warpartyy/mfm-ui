@@ -1,0 +1,28 @@
+/* ================================
+   SURFACES
+================================ */
+
+.bg-surface {
+  background: var(--color-surface);
+}
+
+.bg-subtle {
+  background: var(--color-bg-alt);
+}
+
+.border-subtle {
+  border-color: var(--color-border);
+}
+
+.text-muted {
+  color: var(--color-text-muted);
+}
+
+.link-accent {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+.link-accent:hover {
+  opacity: 0.85;
+}
