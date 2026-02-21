@@ -49,15 +49,45 @@
   transition: color 0.2s ease;
 }
 
+.category-title span {
+  font-size: 0.9rem;
+  transition: transform 0.2s ease;
+}
+
 .category-title:hover {
   color: var(--color-accent);
 }
+
+.category-title:hover span {
+  transform: translateX(4px);
+}
+
+
+/* Divider */
 
 .category-divider {
   height: 1px;
   background: var(--color-border);
   margin: 1rem 0;
   transition: background 0.2s ease;
+}
+
+
+/* Subcategories */
+
+.subcategory-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.subcategory-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
 }
 
 .subcategory-bullet {
@@ -79,7 +109,10 @@
   color: var(--color-text-primary);
 }
 
-/* Hover Enhancements */
+
+/* ================================
+   Hover Enhancements
+================================ */
 
 .category-card:hover .subcategory-bullet {
   background: var(--color-accent);
