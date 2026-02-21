@@ -102,11 +102,12 @@
 .subcategory-link {
   font-size: 0.875rem;
   color: var(--color-text-muted);
-  transition: color 0.2s ease;
+  transition: color 0.2s ease, transform 0.2s ease;
 }
 
 .subcategory-link:hover {
   color: var(--color-text-primary);
+  transform: translateX(2px);
 }
 
 
