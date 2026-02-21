@@ -15,6 +15,50 @@
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
 }
 
+/* ================================
+   MENU TOGGLE
+================================ */
+
+.menu-toggle {
+  padding: 0.5rem;
+  border-radius: 0.75rem;
+  transition: background 0.2s ease;
+}
+
+.menu-toggle:hover {
+  background: var(--color-border);
+}
+
+.hamburger-icon {
+  width: 24px;
+  height: 24px;
+  color: var(--color-text-primary);
+  transition: color 0.2s ease;
+}
+
+.menu-toggle:hover .hamburger-icon {
+  color: var(--color-accent);
+}
+
+.menu-close {
+  padding: 0.5rem;
+  border-radius: 0.75rem;
+  transition: background 0.2s ease;
+}
+
+.menu-close:hover {
+  background: var(--color-border);
+}
+
+.menu-close svg {
+  color: var(--color-text-primary);
+  transition: color 0.2s ease;
+}
+
+.menu-close:hover svg {
+  color: var(--color-accent);
+}
+
 /* Logo */
 
 .header-logo {
