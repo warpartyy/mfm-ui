@@ -1,6 +1,4 @@
-/* ================================
-   HERO SECTION
-================================ */
+/* ================================ HERO SECTION ================================ */
 
 .hero {
   padding: 8rem 0;
@@ -20,9 +18,7 @@
   margin: 0 auto 2.5rem;
 }
 
-/* ================================
-   ABOUT SECTION
-================================ */
+/* ================================ ABOUT SECTION ================================ */
 
 .about {
   padding: 8rem 0;
@@ -90,3 +86,36 @@
   margin: 0 auto 2.75rem;
 }
 
+/* ================================
+   FOOTER
+================================ */
+
+.site-footer {
+  background: var(--color-surface);
+  border-top: 1px solid var(--color-border);
+  padding: 3rem 1.5rem;
+}
+
+.footer-inner {
+  max-width: 72rem;
+  margin: 0 auto;
+}
+
+.footer-brand {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  letter-spacing: -0.01em;
+}
+
+.footer-tagline {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  margin-top: 0.5rem;
+}
+
+.footer-meta {
+  font-size: 0.75rem;
+  color: var(--color-text-subtle);
+  margin-top: 0.75rem;
+}
