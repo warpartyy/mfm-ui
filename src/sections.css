@@ -16,6 +16,25 @@
 }
 
 /* ================================
+   HEADER INNER CONTAINER
+================================ */
+
+.header-inner {
+  max-width: 80rem; /* similar to max-w-7xl */
+  margin: 0 auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+/* Optional: tighten on small screens */
+@media (max-width: 640px) {
+  .header-inner {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* ================================
    MENU TOGGLE
 ================================ */
 
