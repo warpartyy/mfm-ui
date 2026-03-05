@@ -176,13 +176,13 @@
 }
 
 
-
 /* ================================
 Drop Down
 ================================ */
+
 .resource-dropdown {
   position: absolute;
-  top: calc(100% + 8px);
+  top: 100%;
   left: 0;
   width: 320px;
 
@@ -193,11 +193,13 @@ Drop Down
   box-shadow: 0 12px 30px rgba(47, 42, 36, 0.12);
 
   opacity: 0;
-  transform: translateY(-8px);
+  transform: translateY(-6px);
   pointer-events: none;
 
   transition: opacity 0.2s ease, transform 0.2s ease;
 }
+
+/* Open state */
 
 .dropdown-open {
   opacity: 1;
@@ -205,18 +207,37 @@ Drop Down
   pointer-events: auto;
 }
 
+/* Closed state */
+
 .dropdown-closed {
   opacity: 0;
-  transform: translateY(-8px);
+  transform: translateY(-6px);
   pointer-events: none;
 }
 
+/* Parent category */
+
+.dropdown-parent {
+  display: block;
+  padding: 8px 12px;
+  border-radius: 8px;
+  color: var(--color-text-strong);
+  font-weight: 600;
+  transition: background 0.15s ease;
+}
+
+.dropdown-parent:hover {
+  background: var(--color-bg);
+}
+
+/* Child links */
+
 .dropdown-link {
-  color: var(--color-text-muted);
+  display: block;
   padding: 6px 12px;
   border-radius: 6px;
-  display: block;
-  transition: background 0.15s ease;
+  color: var(--color-text-muted);
+  transition: background 0.15s ease, color 0.15s ease;
 }
 
 .dropdown-link:hover {
@@ -224,12 +245,8 @@ Drop Down
   color: var(--color-text-primary);
 }
 
-.dropdown-parent {
-  color: var(--color-text-strong);
-  font-weight: 600;
-}
+/* Hover container */
 
 .nav-dropdown {
   position: relative;
-  padding-bottom: 8px; /* prevents hover gap */
 }
