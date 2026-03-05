@@ -1,0 +1,39 @@
+/* ================================
+   COMMUNITY SECTION (CTA)
+================================ */
+
+.community-section {
+  background: #111111; /* temporary – we’ll token-ize next */
+  padding: 3rem 1rem;
+  border-bottom: 1px solid #1c1c1c;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .community-section {
+    padding: 3.5rem 1rem;
+  }
+}
+
+.community-inner {
+  max-width: 42rem;
+  margin: 0 auto;
+}
+
+.community-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .community-title {
+    font-size: 2rem;
+  }
+}
+
+.community-text {
+  color: #a1a1aa;
+  font-size: 0.95rem;
+  margin-bottom: 1.25rem;
+}

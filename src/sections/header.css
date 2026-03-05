@@ -176,3 +176,32 @@
 }
 
 
+
+/* ================================
+Drop Down
+================================ */
+
+.resource-dropdown {
+  position: fixed;
+  top: 64px;
+  left: 50%;
+  transform: translateX(-320px);
+  width: 320px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  box-shadow: var(--shadow-lg);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.dropdown-open {
+  opacity: 1;
+  transform: translateX(-320px) translateY(0);
+  pointer-events: auto;
+}
+
+.dropdown-closed {
+  opacity: 0;
+  transform: translateX(-320px) translateY(-8px);
+  pointer-events: none;
+}
