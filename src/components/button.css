@@ -28,6 +28,17 @@
 }
 
 .button-secondary {
-  @apply px-3 py-1.5 rounded-md text-sm font-medium border border-border bg-bg text-text-primary hover:bg-surface transition;
+  padding: 0.375rem 0.75rem;
+  border-radius: var(--radius-md);
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: 1px solid var(--color-border);
+  background: var(--color-bg);
+  color: var(--color-text-primary);
+  transition: background 0.2s ease;
+}
+
+.button-secondary:hover {
+  background: var(--color-surface);
 }
 
