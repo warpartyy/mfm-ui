@@ -11,3 +11,5 @@
 
 /* UTILITIES */
 @import "./utilities/index.css";
+
+@import "./components/tags.css";
