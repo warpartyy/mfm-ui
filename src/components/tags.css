@@ -17,3 +17,16 @@
   border-color: var(--color-accent);
   color: white;
 }
+
+.tag-group-header {
+  transition: all 0.15s ease;
+  cursor: pointer;
+  border-radius: var(--radius-md);
+  padding: 0.5rem;
+}
+
+.tag-group-header:hover {
+  background: var(--color-surface-hover);
+  color: var(--color-accent);
+  border: 1px solid var(--color-accent);
+}
