@@ -5,7 +5,7 @@
 npm run dev
 
 git add .
-git commit -m "Describe what you changed"
+git commit -m "tags selected styling added"
 git push
 
 
