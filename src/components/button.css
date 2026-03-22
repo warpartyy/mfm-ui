@@ -42,3 +42,37 @@
   background: var(--color-surface);
 }
 
+
+
+/* ================================
+   BUTTON VARIANTS (NEW)
+================================ */
+
+/* Danger (Delete / Reject) */
+.button-danger {
+  background: var(--color-danger);
+  color: white;
+}
+
+.button-danger:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+/* Success (Approve) */
+.button-success {
+  background: var(--color-success);
+  color: white;
+}
+
+.button-success:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+/* Disabled State */
+.button-disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}

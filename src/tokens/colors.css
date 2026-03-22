@@ -16,4 +16,9 @@
   --color-highlight: #f4a261;
 
   --color-text-strong: #1f1b17;
+
+  /* Semantic Actions */
+
+--color-success: #2e7d32; /* earthy green, fits your palette */
+--color-danger: #c0392b;  /* warm red, less harsh than pure red */
 }
